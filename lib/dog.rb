@@ -14,11 +14,13 @@
 #     # ./spec/01_dogs_spec.rb:2:in `block (2 levels) in <top (required)>'
 #     # ./spec/01_dogs_spec.rb:6:in `block (2 levels) in <top (required)>'
 class Dog
+  
   dogs_name = @name
     
     def bark
       puts "woof!"
     end
+    
   end
 
 fido = Dog.new
