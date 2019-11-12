@@ -15,7 +15,7 @@
 #     # ./spec/01_dogs_spec.rb:6:in `block (2 levels) in <top (required)>'
 class Dog
   
-  def name = (dog_name)
+  def name=(dog_name)
     @dogs_name = (dog_name)
   end
     
