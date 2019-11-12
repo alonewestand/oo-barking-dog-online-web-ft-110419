@@ -25,6 +25,8 @@ fido.name = "Fido"
 
 fido.name
 fido.bark
+
+
 #   2) Dog has a name
 #     Failure/Error: let(:fido) {Dog.new}  # Look up what let does in RSpec
 
