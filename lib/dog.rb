@@ -1,22 +1,24 @@
+# frozen_string_literal: true
 class Dog
-  
+
   def name=(dog_name)
     @dogs_name=(dog_name)
   end
-    
+
   def name
     @dogs_name
   end
-  
-    def bark
-      puts "woof!"
-    end
-    
+
+  def bark
+    puts 'woof!'
   end
 
-fido=Dog.new
+end
 
-fido.name="Fido"
+fido = Dog.new
 
-fido.name
+fido.name='Fido'
+
+puts fido.name
+
 fido.bark
