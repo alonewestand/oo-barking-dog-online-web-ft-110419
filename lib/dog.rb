@@ -15,11 +15,16 @@
 #     # ./spec/01_dogs_spec.rb:6:in `block (2 levels) in <top (required)>'
 class Dog
   dogs_name = @name
-    def bark
+    def @bark
       puts "woof!"
     end
   end
-  
+
+fido = Dog.new
+fido.name = "Fido"
+
+fido.name
+fido.bark
 #   2) Dog has a name
 #     Failure/Error: let(:fido) {Dog.new}  # Look up what let does in RSpec
 
